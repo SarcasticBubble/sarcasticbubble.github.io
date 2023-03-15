@@ -3,23 +3,32 @@ body {
     background-color: #D4C9F5;
 }
 .rectangle {
-    background: #D4C9F5; 
+    background: #ede7ff; 
+    
 }
-.img{
-  width:85%;
-  height: auto;
+img.a{
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  max-height: 633px;
+}
+.vidPad{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+img.b{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 #RoundCorners {
     border-radius: 25px;
 }
 .text {
-    text-align: center;
-    margin: auto;
-    margin-left: 10px;
-    margin-right: 10px;
     color: #2E0B5B;
     font-family: 'Noto Serif Toto', serif;
     font-size: 18px;
+    text-align: left;
+    
 }
 .header {
     font-family: 'Solitreo', cursive;
@@ -125,8 +134,7 @@ body {
 
 .textPadding{
     padding-top: 25px;
-    padding-bottom: 50px;
-    
+    padding-bottom: 25px; 
 }
 
 .DivCenter{
@@ -135,12 +143,15 @@ body {
 }
  @media screen and (min-width: 993px) {
   body {
-    overflow: hidden; /* Hide scrollbars */
+    overflow-x: hidden; /* Hide scrollbars */
   }
-  .ShowBar
-  {
-    overflow-y: visible;
-  }
+  .pictureTextPad1
+{
+    padding-top: 150px;
+}
+.textRight{
+  text-align:right;
+}
 }
 
 
@@ -150,15 +161,17 @@ body {
     display: flex;
     justify-content: center;
   }
-  body{
-    overflow-x: hidden;
-  }
+  .pictureTextPad1
+{
+    padding-top: 10px;
+    text-align: center;
+}
 }
 
 .Break
 {
   width:100%;
-  Height:5px;
+  Height:82px;
   background:#ede7ff;
 }
 
@@ -166,7 +179,13 @@ body {
   Width: 50%;
   height: auto;
 }
-.Vertical
+
+.CenterAnim{ 
+  display: flex;
+  justify-content: center;
+}
+
+#BottomRounded
 {
-  vertical-align: middle;
+  border-radius: 0px 0px 25px 25px;
 }
