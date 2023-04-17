@@ -1,192 +1,223 @@
-﻿
-body {
-    background-color: #D4C9F5;
+﻿body {
+  background-color: #D4C9F5;
 }
+
 .rectangle {
-    background: #ede7ff; 
-    
+  background: #ede7ff;
+
 }
-img.a{
+
+img.a {
   padding-top: 15px;
   padding-left: 10px;
   padding-bottom: 15px;
   max-height: 633px;
 }
-.vidPad{
+
+.vidPad {
   padding-bottom: 15px;
   padding-top: 15px;
 }
-img.b{
+
+img.b {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 #RoundCorners {
-    border-radius: 25px;
-    max-height: 579px;
+  border-radius: 25px;
+
 }
+
 .text {
-    color: #2E0B5B;
-    font-family: 'Noto Serif Toto', serif;
-    font-size: 18px;
-    text-align: left;
-    
+  color: #2E0B5B;
+  font-family: 'Noto Serif Toto', serif;
+  font-size: 18px;
+  text-align: left;
+
 }
+
 .header {
-    font-family: 'Solitreo', cursive;
-    text-align: center;
-    margin: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #2E0B5B;
+  font-family: 'Solitreo', cursive;
+  text-align: center;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2E0B5B;
 }
-.icon{
-    width:50px;
-    height:50px;
+
+.subHeader {
+  font-family: 'Solitreo', cursive;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2E0B5B;
 }
-.icon:hover{
-    width:55px;
-    height:55px;
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon:hover {
+  width: 55px;
+  height: 55px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-   /* The sidebar menu */
-.sidebar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    right: 0;
-    background-color: black; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-    border-radius: 30px 0px 0px 30px;
-  }
-  
-  /* The sidebar links */
-  .sidebarLink{
-    font-family: 'Solitreo', cursive;
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* The button used to open the sidebar */
-  .openbtn {
-    font-size: 25px;
-    font-style:bold;
-    cursor: pointer;
-    background-color:transparent;
-    color: #2E0B5B;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 25px;
-    float: right;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding: 20px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  } 
-
-  .footer{
-    color:#818181;
-    opacity:.65;
-    font-family: 'Noto Serif Toto', serif;
-    font-size:12px;
-  }
-
-
-
-.textPadding{
-    padding-top: 25px;
-    padding-bottom: 25px; 
 }
 
-.DivCenter{
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidebar */
+  border-radius: 30px 0px 0px 30px;
+}
+
+/* The sidebar links */
+.sidebarLink {
+  font-family: 'Solitreo', cursive;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 25px;
+  font-style: bold;
+  cursor: pointer;
+  background-color: transparent;
+  color: #2E0B5B;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  float: right;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.footer {
+  color: #818181;
+  opacity: .65;
+  font-family: 'Noto Serif Toto', serif;
+  font-size: 12px;
+}
+
+
+
+.textPadding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.DivCenter {
   display: flex;
   justify-content: center;
 }
- @media screen and (min-width: 993px) {
+
+@media screen and (min-width: 993px) {
   body {
-    overflow-x: hidden; /* Hide scrollbars */
+    overflow-x: hidden;
+    /* Hide scrollbars */
   }
-  .pictureTextPad1
-{
+
+  .pictureTextPad1 {
     padding-top: 150px;
-}
-.textRight{
-  text-align:right;
-}
+  }
+
+  .textRight {
+    text-align: right;
+  }
 }
 
 
-  
-@media screen and (max-width: 992px){
-  .CenterMobile{ 
+
+@media screen and (max-width: 992px) {
+  .CenterMobile {
     display: flex;
     justify-content: center;
   }
-  .pictureTextPad1
-{
+
+  .pictureTextPad1 {
     padding-top: 10px;
     text-align: center;
-}
-}
-
-.Break
-{
-  width:100%;
-  Height:82px;
-  background:#ede7ff;
+  }
 }
 
-.imgSmall{
+.Break {
+  width: 100%;
+  Height: 82px;
+  background: #ede7ff;
+}
+
+.imgSmall {
   Width: 50%;
   height: auto;
 }
 
-.CenterAnim{ 
+.CenterAnim {
   display: flex;
   justify-content: center;
 }
 
-#BottomRounded
-{
+#BottomRounded {
   border-radius: 0px 0px 25px 25px;
 }
